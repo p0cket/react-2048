@@ -1,0 +1,17 @@
+.container {
+    background-color: lightgoldenrodyellow;
+}
+
+.grid-container {
+    padding: 60px;
+    justify-content: center;
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: 60px 60px 60px 60px;
+    grid-template-rows: 60px 60px 60px 60px;
+}
+
+.flex-container {
+    display: flex;
+    color: antiquewhite;
+}
