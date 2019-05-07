@@ -13,10 +13,10 @@ class Board extends React.Component {
                 <p>Hey Guys! This is your 2048 board</p>
                 <div className="container">
                     <div className="grid-container">
-                        <Square num={2}/><Square num={1}/><Square num={1}/><Square num={1}/>
-                        <Square num={1}/><Square num={1}/><Square num={4}/><Square num={1}/>
-                        <Square num={1}/><Square num={0}/><Square num={1}/><Square num={1}/>
-                        <Square num={16}/><Square num={1}/><Square num={8}/><Square num={1}/>
+                        <Square num={2}/><Square num={2}/><Square num={2}/><Square num={2}/>
+                        <Square /><Square /><Square num={4}/><Square />
+                        <Square num={2}/><Square /><Square /><Square num={2}/>
+                        <Square num={16}/><Square num={2}/><Square num={8}/><Square num={2}/>
                     </div>
                 </div>
 

@@ -4,7 +4,7 @@ import './Square.css';
 const Square = props => {
     return (
         <div className="square">
-            <h4 className="square-text">{props.num}</h4>
+           {props.num && <h2 className="square-text">{props.num}</h2>}
         </div>
 
     );
